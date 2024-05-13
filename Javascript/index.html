@@ -5,6 +5,7 @@
     <script>
         counter = 0;
 
+        // Adjusts the HTML element to display the number of times the link has been clicked
         function countClicks(element) {
         counter = counter + 1;
         var output = 'The link was pressed ' + counter + ' times.';
@@ -19,9 +20,9 @@
     <p id="boxy"></p>
     <img src="http://www.outgrabe.net/cat01.jpg" 
         onmouseover="this.src='http://www.outgrabe.net/cat02.jpg'" 
-        onmouseout="this.src='http://www.outgrabe.net/cat01.jpg'"
-    
-    >
+        onmouseout="this.src='http://www.outgrabe.net/cat01.jpg'"   
+    > <!-- This displays an image of a cat and then alters 
+        the page to show a different cat when hovered over with the mouse -->
     
 </body>
 </html>
