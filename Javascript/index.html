@@ -5,18 +5,17 @@
     <script>
         counter = 0;
 
-        function countClicks() {
-            counter = counter + 1;
-            var output = 'The link was pressed ' + counter + ' times.';
-            var element = document.getElementById('boxy');
-            element.innerHTML = output;
+        function countClicks(element) {
+        counter = counter + 1;
+        var output = 'The link was pressed ' + counter + ' times.';
+        element.innerHTML = output;
         }
     </script>
 
 </head>
 <body>
     <h1>JavaScript Demo</h1>
-    <a href="#" onclick="countClicks();">Click me</a>
+    <a href="#" onclick="countClicks(this);">Click me</a>
     <p id="boxy"></p>
 </body>
 </html>
