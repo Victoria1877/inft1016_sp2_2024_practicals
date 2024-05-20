@@ -1,0 +1,30 @@
+
+media="screen, print,tty"  
+
+h1, h2, p {
+    padding: 0;
+    margin: 0;
+    font: 1em/1.33 Verdana, ssans-serif;
+    }
+
+h1, h2 {
+        color: red;
+        margin: 0.83em 0 0.17em 0; 
+    }
+
+h1 {
+        font-size: 1.33em;
+    }
+
+h2 {
+        font-size: 1.17em;
+    }
+    
+p {
+        margin: 0 0 0.5em 0;
+        text-indent: 5em;
+    }
+    
+p:first-of-type {
+        font: 0.17em/1.33 Verdana, sans-serif;
+    }
