@@ -62,7 +62,50 @@
     a:hover {
         color: var(--c-orange);
       }
-      
+
+    main, aside, h3 {
+        border: solid 3px var(--c-cyan);
+    }
+    h1, h2, h3 {padding-top: 50px;}
+    header {
+        text-align: center;
+        size: 150%;
+    }
+    li {
+        list-style-type: none;
+        list-style: none;
+    }
+    nav{
+        text-align: center;
+        padding: 0%;
+        ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            width: 100%;
+            padding-left: 0;
+            align-items:center;
+          }
+        
+          li {
+            list-style: none;
+            display: inline-block;
+            width: calc(100% / 4);
+            text-align: center;
+          }
+    }
+    html {
+        width:800px;
+    }
+    aside{ 
+        color: var(--c-green);
+        a { 
+            color: var(--c-red);
+        }
+        a:hover{ 
+            color: var(--c-blue);
+        }
+    }
 }
 
 
