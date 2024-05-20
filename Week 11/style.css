@@ -1,30 +1,51 @@
 
-media="screen, print,tty"  
+media="screen, print,tty" 
 
-h1, h2, p {
-    padding: 0;
-    margin: 0;
-    font: 1em/1.33 Verdana, ssans-serif;
-    }
 
-h1, h2 {
-        color: red;
-        margin: 0.83em 0 0.17em 0; 
-    }
-
-h1 {
-        font-size: 1.33em;
-    }
-
-h2 {
-        font-size: 1.17em;
-    }
+@media screen {
+    h1, h2, p {
+        padding: 0;
+        margin: 0;
+        font: 1em/1.33 Verdana, ssans-serif;
+        }
     
-p {
-        margin: 0 0 0.5em 0;
-        text-indent: 5em;
-    }
+    h1, h2 {
+            color: red;
+            margin: 0.83em 0 0.17em 0; 
+        }
     
-p:first-of-type {
-        font: 0.17em/1.33 Verdana, sans-serif;
-    }
+    h1 {
+            font-size: 1.33em;
+        }
+    
+    h2 {
+            font-size: 1.17em;
+        }
+        
+    p {
+            margin: 0 0 0.5em 0;
+            text-indent: 5em;
+        }
+        
+    p:first-of-type {
+            font: 0.17em/1.33 Verdana, sans-serif;
+        }
+}
+
+
+base-font-color         131 148 150
+
+secondary-font-color    88 110 117 
+emphasised-font         147 161 161
+    
+c-background-color      0  43  54
+c-background-highlights 7  54  66
+    
+c-yellow      181 137   0 
+c-orange      203  75  22  
+c-red         220  50  47  
+c-magenta     211  54 130 
+c-violet      108 113 196 
+c-blue        38 139 210 
+c-cyan        42 161 152 
+c-green       133 153   0 
