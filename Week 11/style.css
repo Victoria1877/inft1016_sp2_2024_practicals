@@ -2,6 +2,7 @@
 
 
 @media screen, print, projector {
+    /* sets the basic properties for styling and establishes variables */
     :root {
         --base-font-color: rgb(131 148 150);
     
@@ -37,7 +38,8 @@
         font: 1em/1.33 Verdana, ssans-serif;
         }
         
-
+    /* Sets the background 
+        colour of the page*/
     body {  
         background-color: var(--c-background-color); 
         }  
