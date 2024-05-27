@@ -84,3 +84,10 @@ Format this text as code.
 td:nth-child(1) { text-align:right; }
 td:nth-child(2) { text-align:left; }
 td:nth-child(3) { text-align:center; }
+
+!!
+
+<code>
+def my_function():
+  print("Hello from a function")
+</code>
