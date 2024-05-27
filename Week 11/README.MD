@@ -56,3 +56,31 @@ Format this text as code.
 
 <a href='https://commons.wikimedia.org/wiki/File:Kismet-IMG_6007-black.jpg'><img: src=https://commons.wikimedia.org/wiki/File:Kismet-IMG_6007-black.jpg>>
 
+
+<table>
+  <tr >
+    <th>Number</th>
+    <th>Colour</th>
+    <th>Size</th>
+  </tr>
+  <tr>
+    <th>12</th>
+    <th>red</th>
+    <th>412</th>
+  </tr>
+  <tr>
+    <th>23</th>
+    <th>blue</th>
+    <th>534</th>
+  </tr>
+  <tr>
+    <th>45</th>
+    <th>green</th>
+    <th>57</th>
+  </tr>
+
+!! STYLING FOR TABLE
+
+td:nth-child(1) { text-align:right; }
+td:nth-child(2) { text-align:left; }
+td:nth-child(3) { text-align:center; }
