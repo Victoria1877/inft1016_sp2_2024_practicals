@@ -1,9 +1,49 @@
-style{
-    header{
-        text-align: center;
-        background-color: rgb(253, 200, 115);
-    }
-    h1{
-        color: rebeccapurple;
-    }
-}
+html{
+    background-color: rgba(255, 176, 255, 0.817);}
+header{
+    text-align: center;
+    background-color: rgb(58, 0, 74);
+    width: 100%;
+    h1{color:blanchedalmond;}
+    padding-bottom: 5px;}
+form{
+    text-align: center;}
+h1{
+    color: rebeccapurple;}
+h2{
+    color: rebeccapurple}
+h3{
+    color: rebeccapurple;}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    flex: 100%;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding-left: 0;
+    align-items:center;
+    list-style: none;
+    display: inline-block;}
+nav li{ 
+    list-style: none;
+    display: inline-block;
+    list-style-type: none;
+    list-style: none;
+    width: calc(99% / 3);
+    text-align: center;}
+button{
+    background-color: violet;
+    padding: 0.5%;
+    border: 1px solid black;
+    border-radius: 8px;}
+button:hover{
+    background-color: wheat;
+    border: 1px solid violet;}
+a{
+    color: rgb(176, 64, 117);}
+a:hover{
+    color: wheat; background-color: rgb(58, 0, 74);}
+
+
+
+
