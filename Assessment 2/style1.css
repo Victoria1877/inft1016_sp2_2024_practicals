@@ -1,3 +1,8 @@
+   /********************************************************************************/
+  /************Benjamin Bowering************toDoTasks.html**************31/05/2024*/
+ /**This is my own work as defined by the university's academic integrity policy**/
+/********************************************************************************/
+
 :root{
     --background-colour: rgb(255, 176, 255);
     --header-colour: rgb(58, 0, 74);
@@ -5,7 +10,7 @@
     --heading-colour:rebeccapurple;
     --secondary-colour: blanchedalmond;
     --nav-colour: gray;
-}
+    --link-highlight: ;}
 [data-theme="light-mode"]{
     --background-colour: rgb(255, 176, 255);
     --header-colour: rgb(58, 0, 74);
@@ -13,15 +18,14 @@
     --heading-colour:rebeccapurple;
     --secondary-colour: blanchedalmond;
     --nav-colour: gray;
-}
+    --link-highlight: wheat;}
 [data-theme="dark-mode"]{
     --background-colour: rgb(65, 15, 65);
     --header-colour: rgb(0, 0, 0);
     --font-colour: white;
     --heading-colour:rgb(44, 44, 92);
     --secondary-colour: rebeccapurple;
-    --nav-colour: rgb(92, 87, 87);
-}
+    --nav-colour: rgb(92, 87, 87);}
 html{
     background-color: var(--header-colour)}
 body{
@@ -33,8 +37,9 @@ header{
     text-align: center;
     background-color: var(--header-colour);
     width: 100%;
-    h1{color:var(--secondary-colour);}
-    padding-bottom: 5px;}
+    padding-bottom: 5px;
+    h1{color:var(--secondary-colour); margin-bottom: 0.5%;}
+    }
 footer{
     margin-left: 1%}
 form{
@@ -77,6 +82,8 @@ nav li{
 button{
     background-color: violet;
     padding: 0.5%;
+    margin-top: 0.25%;
+    margin-bottom: 0.5%;
     border: 1px solid black;
     border-radius: 8px;}
 button:hover{
@@ -92,5 +99,9 @@ a:hover{
     color: wheat; background-color: rgb(58, 0, 74);}
 footer p{
     font-size: 50%;}
-article img{
-    border: 15px solid orange;}
+article a{
+    background-color: var(--link-highlight);}
+header span{
+    color: var(--secondary-colour);}
+
+
