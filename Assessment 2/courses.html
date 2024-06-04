@@ -12,7 +12,7 @@
         <script src="myScripts.js"></script>
     </head>  
 
-    <body>    
+    <body onload="showName()">    
         <header> 
             <h1>An Account of My First Year of University</h1>    
             <button onclick="toggleThatTheme()">Toggle Theme</button>
@@ -24,10 +24,13 @@
                 <li><a href="#" style="color: wheat; background-color: darkslategrey;;">Courses</a></li>        
                 <li><a href="toDoTasks.html">To Do Tasks</a></li>           
             </ul>       
-            <form>
-                <input type="text" name="user_name" placeholder="Enter your name!"> 
-                <button type="submit">Apply!</button>      
-            </form>     
+            <div id="theName"> 
+                <form>
+                    <input type="text" name="user_name" placeholder="Enter your name!"> 
+                    <button type="submit">Apply!</button>      
+                </form>  
+                <h2 id="usersName">Hello, Guest</h2>  
+            </div>    
         </nav>    
     <main>
         <article>

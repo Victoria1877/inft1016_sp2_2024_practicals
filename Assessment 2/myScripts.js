@@ -30,6 +30,15 @@ function toggleThatTheme(){
 function getDateTime(){
     const theDateTime = new Date();
     const currentDateTime = theDateTime.toLocaleString();
-    document.getElementById("dateTime").innerHTML = currentDateTime
+    document.getElementById("dateTime").innerHTML = currentDateTime;
 }
 setInterval(getDateTime, 1000);
+
+function showName(){
+    const queryString = window.location.search;
+    if (queryString){
+    const urlParams = new URLSearchParams(queryString);
+    const usersName = urlParams.get('user_name');
+    document.getElementById("usersName").innerHTML = "Hello, " + usersName;
+    }
+}

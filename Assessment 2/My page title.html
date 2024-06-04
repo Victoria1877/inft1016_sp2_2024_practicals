@@ -12,7 +12,7 @@
         <script src="myScripts.js"></script>
     </head>  
 
-    <body>    
+    <body onload="showName()">    
         <header> 
             <h1>An Account of My First Year of University</h1>  
             <button onclick="toggleThatTheme()">Toggle Theme</button>
@@ -25,11 +25,14 @@
                 <li><a href="#" style="color: wheat; background-color: darkslategrey;">Home</a></li>        
                 <li><a href="courses.html">Courses</a></li>        
                 <li><a href="toDoTasks.html">To Do Tasks</a></li>  
-            </ul>       
-            <form>
-                <input type="text" name="user_name" placeholder="Enter your name!"> 
-                <button type="submit">Apply!</button>      
-            </form>     
+            </ul>  
+            <div id="theName"> 
+                <form>
+                    <input type="text" name="user_name" placeholder="Enter your name!"> 
+                    <button type="submit">Apply!</button>      
+                </form>  
+                <h2 id="usersName">Hello, Guest</h2>  
+            </div> 
         </nav>    
 
 
@@ -38,19 +41,18 @@
                 <h2>My First Year at University</h2>        
                 <p>Welcome to the Home Page of the website. On here I will both keep my own personal to do list 
                     as well as an account of my time at UniSA. The site can be navigated through the bar above.
-                    in ition to this, the button under the heading will ***** **** ******* ****</p>        
+                    in ition to this, the button under the heading will Show the images.</p>        
                 
-                <br><br><br><br>
-                
+                <br>
                 
                 <h3>Images</h3> 
                 <br>
-                <button onclick="showLogo(p1, img1)">Logo</button> <button onclick="showCampus(p1, img1)">Campus</button>
+                <button onclick="showLogo(p1, img1)">Logo</button> 
+                <button onclick="showCampus(p1, img1)">Campus</button>
                 <br>
                 <img id = 'img1' src="" alt="" style="margin-top: 1%;"> 
                 <br> 
                 <p id="p1"></p>
-                 
         </article>      
 
         <br><br>
@@ -58,6 +60,7 @@
             <p>©Copyright 2024 by B. Bowering All rights reversed.</p>    
         </footer>  
         <br><br>
+        
     </body>
 </html>
 
