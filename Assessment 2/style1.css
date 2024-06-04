@@ -1,5 +1,5 @@
    /********************************************************************************/
-  /************Benjamin Bowering************toDoTasks.html**************31/05/2024*/
+  /************Benjamin Bowering*************style1.css***********31/05/2024*******/
  /**This is my own work as defined by the university's academic integrity policy**/
 /********************************************************************************/
 
@@ -38,8 +38,8 @@ header{
     background-color: var(--header-colour);
     width: 100%;
     padding-bottom: 5px;
-    h1{color:var(--secondary-colour); margin-bottom: 0.5%;}
-    }
+    span{color: var(--secondary-colour);}
+    h1{color:var(--secondary-colour); margin-bottom: 0.5%;}}
 footer{
     margin-left: 1%}
 form{
@@ -101,7 +101,4 @@ footer p{
     font-size: 50%;}
 article a{
     background-color: var(--link-highlight);}
-header span{
-    color: var(--secondary-colour);}
-
 
