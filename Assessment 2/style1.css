@@ -114,4 +114,11 @@ footer p{
     font-size: 50%;}
 article a{
     background-color: var(--link-highlight);}
-
+#toDoList {
+    text-align: center;
+    list-style-position: inside;
+    ol{
+        li button{
+            margin-left: 2%;
+        }
+    }}

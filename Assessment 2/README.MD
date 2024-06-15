@@ -5,7 +5,8 @@ The main page (My page Title.html) stores a selection of images that can be disp
 
 The courses.html page holds a list of the courses being undertaken so far in the program.
 
-the toDoTasks.html page demonstrates the active to do list.
+the toDoTasks.html page demonstrates the active to do list. includes updateable and modifiable list of tasks
+    in an ordered list and can be removed, and saved/loaded to/from local storage.
 
 ---------------------------------------------------------------------------------------------------------------------
 
@@ -13,3 +14,5 @@ All pages contain:
 <ul><li>a toggle switch to switch between light and dark modes
     <li>an up to date clock
     <li>an ability to personally greet the user by their name
+
+---------------------------------------------------------------------------------------------------------------------
