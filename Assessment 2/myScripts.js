@@ -64,7 +64,6 @@ function showName(){
     localStorage.setItem('name', usersName)
     }
     // Updates the to do list to the saved version on load
-    load()
     displayTasks();
 }
 
